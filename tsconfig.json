@@ -17,7 +17,11 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@jh/ng-ui/*": ["./dist/ng-ui/*"],
+      "@jh/ng-ui": ["./dist/ng-ui/"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
